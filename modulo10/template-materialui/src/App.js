@@ -1,12 +1,13 @@
 import Header from "./components/header";
 import Config from "./pages/Config/configuraco";
-import Login from "./pages/Login/login";
+
+import NewAdd from "./Add/listagem"
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Login />
+      <NewAdd/>
       <Config/>
     </div>
   );
